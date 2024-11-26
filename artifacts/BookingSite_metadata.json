@@ -1,0 +1,698 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "contactDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "flightNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "origin",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "destination",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dateOfJourney",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "seatClass",
+						"type": "string"
+					}
+				],
+				"name": "bookAirlineTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "contactDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "busNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "origin",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "destination",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dateOfJourney",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "seatNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "bookBusTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "contactDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "movieName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "cinemaHall",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "showTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "seatNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "bookCinemaTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "contactDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "matchDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "stadium",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "matchDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "seatNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "bookCricketTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "contactDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "trainNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "origin",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "destination",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dateOfJourney",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "seatNumber",
+						"type": "uint8"
+					}
+				],
+				"name": "bookRailwayTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "bookings",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "bookingID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum BookingSite.BookingType",
+						"name": "bookingType",
+						"type": "uint8"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "userID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "contactDetails",
+								"type": "string"
+							}
+						],
+						"internalType": "struct BookingSite.UserStruct",
+						"name": "user",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "busNumber",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "origin",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "destination",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dateOfJourney",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint8",
+								"name": "seatNumber",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct BookingSite.BusBookingStruct",
+						"name": "busBooking",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "movieName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "cinemaHall",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "showTime",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint8",
+								"name": "seatNumber",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct BookingSite.CinemaBookingStruct",
+						"name": "cinemaBooking",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "flightNumber",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "origin",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "destination",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dateOfJourney",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "seatClass",
+								"type": "string"
+							}
+						],
+						"internalType": "struct BookingSite.AirlineBookingStruct",
+						"name": "airlineBooking",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "trainNumber",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "origin",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "destination",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dateOfJourney",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint8",
+								"name": "seatNumber",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct BookingSite.RailwayBookingStruct",
+						"name": "railwayBooking",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "matchDetails",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "stadium",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "matchDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint8",
+								"name": "seatNumber",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct BookingSite.CricketBookingStruct",
+						"name": "cricketBooking",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_bookingID",
+						"type": "uint256"
+					}
+				],
+				"name": "getBooking",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "bookingID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum BookingSite.BookingType",
+								"name": "bookingType",
+								"type": "uint8"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "userID",
+										"type": "uint256"
+									},
+									{
+										"internalType": "string",
+										"name": "name",
+										"type": "string"
+									},
+									{
+										"internalType": "uint8",
+										"name": "age",
+										"type": "uint8"
+									},
+									{
+										"internalType": "string",
+										"name": "contactDetails",
+										"type": "string"
+									}
+								],
+								"internalType": "struct BookingSite.UserStruct",
+								"name": "user",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "busNumber",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "origin",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "destination",
+										"type": "string"
+									},
+									{
+										"internalType": "uint256",
+										"name": "dateOfJourney",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint8",
+										"name": "seatNumber",
+										"type": "uint8"
+									}
+								],
+								"internalType": "struct BookingSite.BusBookingStruct",
+								"name": "busBooking",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "movieName",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "cinemaHall",
+										"type": "string"
+									},
+									{
+										"internalType": "uint256",
+										"name": "showTime",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint8",
+										"name": "seatNumber",
+										"type": "uint8"
+									}
+								],
+								"internalType": "struct BookingSite.CinemaBookingStruct",
+								"name": "cinemaBooking",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "flightNumber",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "origin",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "destination",
+										"type": "string"
+									},
+									{
+										"internalType": "uint256",
+										"name": "dateOfJourney",
+										"type": "uint256"
+									},
+									{
+										"internalType": "string",
+										"name": "seatClass",
+										"type": "string"
+									}
+								],
+								"internalType": "struct BookingSite.AirlineBookingStruct",
+								"name": "airlineBooking",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "trainNumber",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "origin",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "destination",
+										"type": "string"
+									},
+									{
+										"internalType": "uint256",
+										"name": "dateOfJourney",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint8",
+										"name": "seatNumber",
+										"type": "uint8"
+									}
+								],
+								"internalType": "struct BookingSite.RailwayBookingStruct",
+								"name": "railwayBooking",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "matchDetails",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "stadium",
+										"type": "string"
+									},
+									{
+										"internalType": "uint256",
+										"name": "matchDate",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint8",
+										"name": "seatNumber",
+										"type": "uint8"
+									}
+								],
+								"internalType": "struct BookingSite.CricketBookingStruct",
+								"name": "cricketBooking",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct BookingSite.BookingStruct",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalBookings",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ticket_booking_contract/ticket_booking.sol": "BookingSite"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ticket_booking_contract/ticket_booking.sol": {
+			"keccak256": "0x73693867be07e5934cdda957523e85aef49d419499a82b4b386037cf8584a360",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://962582af78d651f69cd4713eaf5c03c5fd0997bad596320fbe9eeb454705e38f",
+				"dweb:/ipfs/QmPBZDjoNmovpnVEcfqn8qbmuAi9RcAmp54Sr3s3kkNwD1"
+			]
+		}
+	},
+	"version": 1
+}

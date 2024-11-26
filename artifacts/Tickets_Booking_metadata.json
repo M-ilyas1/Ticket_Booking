@@ -1,0 +1,510 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "anonomus_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Time",
+						"name": "Select_Time",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Type",
+						"name": "Select_Type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_Seat_Number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_No_Of_seats",
+						"type": "uint256"
+					}
+				],
+				"name": "Book_AirLine_Ticket",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "anonomus_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Time",
+						"name": "Select_Time",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Type",
+						"name": "Select_Type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_Seat_Number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_No_Of_seats",
+						"type": "uint256"
+					}
+				],
+				"name": "Book_Bus_Ticket",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "anonomus_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Time",
+						"name": "Select_Time",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Movie",
+						"name": "Select_Movie_Name",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_Seat_Number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_No_Of_seats",
+						"type": "uint256"
+					}
+				],
+				"name": "Book_Cinema_Ticket",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "anonomus_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Date",
+						"name": "dates",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Type",
+						"name": "Select_Type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_Seat_Number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_No_Of_seats",
+						"type": "uint256"
+					}
+				],
+				"name": "Book_Cricket_Ticket",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "anonomus_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Time",
+						"name": "Select_Time",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Tickets_Booking.Type",
+						"name": "Select_Type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_Seat_Number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Select_No_Of_seats",
+						"type": "uint256"
+					}
+				],
+				"name": "Book_Railway_Ticket",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Id_Number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Anonomus_id",
+						"type": "uint256"
+					}
+				],
+				"name": "Check_AnonomusID",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "password",
+						"type": "uint256"
+					}
+				],
+				"name": "Chekck_My_Tickets",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "ID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "Anonomus_ID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "Name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "Age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "Address",
+								"type": "address"
+							},
+							{
+								"components": [
+									{
+										"internalType": "enum Tickets_Booking.Time",
+										"name": "time",
+										"type": "uint8"
+									},
+									{
+										"internalType": "enum Tickets_Booking.Type",
+										"name": "types",
+										"type": "uint8"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Seat_Number",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Book_n_Seats",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Tickets_Booking.Bus_Ticket",
+								"name": "bus_ticket",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "enum Tickets_Booking.Time",
+										"name": "time",
+										"type": "uint8"
+									},
+									{
+										"internalType": "enum Tickets_Booking.Type",
+										"name": "types",
+										"type": "uint8"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Seat_Number",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Book_n_Seats",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Tickets_Booking.AirLine_Ticket",
+								"name": "airLine_ticket",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "enum Tickets_Booking.Time",
+										"name": "time",
+										"type": "uint8"
+									},
+									{
+										"internalType": "enum Tickets_Booking.Movie",
+										"name": "Movie_Name",
+										"type": "uint8"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Seat_Number",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Book_n_Seats",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Tickets_Booking.Cinema_Ticket",
+								"name": "cinema_ticket",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "enum Tickets_Booking.Date",
+										"name": "date",
+										"type": "uint8"
+									},
+									{
+										"internalType": "enum Tickets_Booking.Type",
+										"name": "types",
+										"type": "uint8"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Seat_Number",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Book_n_Seats",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Tickets_Booking.Cricket_Ticket",
+								"name": "cricket_ticket",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "enum Tickets_Booking.Time",
+										"name": "time",
+										"type": "uint8"
+									},
+									{
+										"internalType": "enum Tickets_Booking.Type",
+										"name": "types",
+										"type": "uint8"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Seat_Number",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Book_n_Seats",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Tickets_Booking.Railway_Ticket",
+								"name": "railway_ticket",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct Tickets_Booking.Client",
+						"name": "A",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "Creat_Account",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ticket_booking/ticket_booking.sol": "Tickets_Booking"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ticket_booking/ticket_booking.sol": {
+			"keccak256": "0x4bcc46cb201902e80165721ef8fcedc902668d2cd5b80309c40ac20cc2dfbdf7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d483b9825953cc4dcb211d90a96ac045a12aaebc48b258174609102ff78820a6",
+				"dweb:/ipfs/QmdDE21TMwxZUjF6SeD68BWrwPAUV7FJq9QGNDvJbBHBuw"
+			]
+		}
+	},
+	"version": 1
+}

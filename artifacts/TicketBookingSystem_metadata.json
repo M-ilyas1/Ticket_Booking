@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ticket_booking_contract/ticket_booking.sol": "TicketBookingSystem"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ticket_booking_contract/ticket_booking.sol": {
+			"keccak256": "0x0153d557ec998277dc0b5a0a2903480cfd306c2f217c1a2bb56803d148320c84",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2790b241b2d7528e77cca4654c8daf96f99cc95b31c7c7a3c917c79cfcf0ce3b",
+				"dweb:/ipfs/Qmc6xpsh8SL8jRZtcusR4i8K8wqoGSSL119hee2f2qq1rt"
+			]
+		}
+	},
+	"version": 1
+}
